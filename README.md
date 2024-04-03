@@ -12,7 +12,7 @@ Microsoft Purview
 
 <h2>Environments Used </h2>
 
-- <b>MacOS Big Sur </b> (21H2)
+- <b>MacOS Big Sur </b> 
 
 <h2>Program walk-through:</h2>
 
@@ -43,7 +43,8 @@ Customizing access and override settings:  <br/>
 <br />
 Turning on the policy :  <br/>
 <img src="https://imgur.com/yN8sc2t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+<br />
+<br />
 policy in effect :  <br/>
 <img src="https://imgur.com/O6SH9L5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
