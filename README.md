@@ -1,53 +1,53 @@
 # Microsoft-Defender-Labs
-<h1>JWipe - Disk Sanitization</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+Data loss prevention (DLP) is a security tool designed to detect and prevent the unauthorized or inappropriate sharing, transfer, or utilization of sensitive data. Microsoft Purview platform gives us capabilities to deploy DLP successfully for on promise systems, cloud-based and endpoint systems monitoring and safeguarding sensitive information across various platforms. Additionally, DLP aids in ensuring compliance with regulatory frameworks like HIPAA and GDPR by helping organizations maintain control over their sensitive data.
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+Microsoft Purview 
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>MacOS Big Sur </b> (21H2)
 
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://imgur.com/N8P6I03.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Launch the utility Creating custom DLP for Australian Financial data : <br/>
+<img src="https://imgur.com/p9asHEg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Naming the policy:  <br/>
+<img src="https://imgur.com/E2wyxc6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Chossing the data locations where the policy will be applied exmaples Exchage email  : <br/>
+<img src="https://imgur.com/cvvi37v.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Selecting template as per organizations needs and as per data protection Laws :  <br/>
+<img src="https://imgur.com/PYP9qVS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Selecting actions that will be carried out is sensitive data is being shared:  <br/>
+<img src="https://imgur.com/wffyQUZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Customizing access and override settings:  <br/>
+<img src="https://imgur.com/GSNEzoj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Turning on the policy :  <br/>
+<img src="https://imgur.com/yN8sc2t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-
+policy in effect :  <br/>
+<img src="https://imgur.com/O6SH9L5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 <!--
  ```diff
 - text in red
